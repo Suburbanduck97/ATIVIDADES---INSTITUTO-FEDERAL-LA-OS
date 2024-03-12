@@ -8,7 +8,7 @@ int main(){
 	setlocale(LC_ALL, "portuguese");
 	
 	do{
-		printf("INSIRA O %dª NÚMERO: ", contador);
+		printf("INSIRA O %dÂª NÃšMERO: ", contador);
 		scanf("%d",&numero);
 		
 		contador = contador + 1;
@@ -25,7 +25,10 @@ int main(){
 	}while(contador <= 20);
 	
 	printf("MAIOR VALOR %d \n", maiorNumero);
-	printf("MENOR VALOR %d",menorNumero);
+	printf("MENOR VALOR %d \n", menorNumero);
+	printf("MÃ‰DIA: %.1f \n", media);
+
+	return 0;
 	
 	
 }
