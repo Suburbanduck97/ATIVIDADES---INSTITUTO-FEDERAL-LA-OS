@@ -2,7 +2,7 @@
 #include <locale.h>
 
 int main(){
-	int numero = 0, i, soma = 0, contador, maiorNumero = 0, menorNumero = 1;
+	int numero = 0, soma = 0, contador, maiorNumero = 0, menorNumero = 1;
 	float media = 0;
 	
 	setlocale(LC_ALL, "portuguese");
